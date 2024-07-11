@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./helper.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Doshka</title>
+  </head>
+  <body class="page">
+    <header class="header-wrapper">
+      <div class="header-container">
+        <div class="container">
+          <div class="header">
+            <form action="#" class="header__search">
+              <input
+                type="text"
+                class="header__search-input"
+                placeholder="Пошук"
+              />
+              <img
+                src="./img/search.svg"
+                alt="search-icon"
+                class="header__search-icon"
+              />
+            </form>
+            <div class="notification">
+              <button class="notification__button">
+                <img
+                  src="./img/bell.svg"
+                  alt="bell"
+                  class="notification__icon"
+                />
+                <span class="notification__counter">3</span>
+              </button>
+            </div>
+            <nav class="navigation">
+              <button class="navigation__button">
+                <div class="navigation__line"></div>
+                <div class="navigation__line"></div>
+                <div class="navigation__line"></div>
+              </button>
+            </nav>
+          </div>
+          <div class="header-description">
+            <p class="header-description__top">Увійдіть</p>
+            <div class="header-description__bottom">в свій акаунт</div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="registration-wrapper">
+      <div class="registration">
+        <div class="container">
+          <form action="#" class="registration-form">
+            <div class="registration-form__input-wrapper">
+              <input
+                type="text"
+                class="registration-form__input"
+                placeholder="User228..."
+                required
+              />
+              <label for="#" class="registration-form__label">Ваш нік</label>
+            </div>
+            <div class="registration-form__input-wrapper">
+              <input
+                type="password"
+                class="registration-form__input"
+                placeholder="Use228***"
+                required
+              />
+              <label for="#" class="registration-form__label">Пароль</label>
+              <button class="registration-form__show-button">
+                <img
+                  src="./img/show.png"
+                  alt="show"
+                  class="registration-form__show-button-img"
+                />
+              </button>
+            </div>
+
+            <button class="registration-form__submit">Створити</button>
+
+            <p class="registration-form__sign-in">
+              Немає аккаунту?
+              <a href="#" class="registration-form__sign-in-link">Створити</a>
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./helper.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Doshka</title>
+  </head>
+  <body class="page">
+    <header class="header-wrapper">
+      <div class="header-container">
+        <div class="container">
+          <div class="header">
+            <form action="#" class="header__search">
+              <input
+                type="text"
+                class="header__search-input"
+                placeholder="Пошук"
+              />
+              <img
+                src="./img/search.svg"
+                alt="search-icon"
+                class="header__search-icon"
+              />
+            </form>
+            <div class="notification">
+              <button class="notification__button">
+                <img
+                  src="./img/bell.svg"
+                  alt="bell"
+                  class="notification__icon"
+                />
+                <span class="notification__counter">3</span>
+              </button>
+            </div>
+            <nav class="navigation">
+              <button class="navigation__button">
+                <div class="navigation__line"></div>
+                <div class="navigation__line"></div>
+                <div class="navigation__line"></div>
+              </button>
+            </nav>
+          </div>
+          <div class="header-description">
+            <p class="header-description__top">Створення</p>
+            <div class="header-description__bottom">оголошення</div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="announcement-wrapper">
+      <div class="announcement">
+        <form action="#" class="announcement-form">
+          <div class="first-part-wrapper">
+            <div class="announcement-form__input-wrapper">
+              <input
+                type="text"
+                class="announcement-form__input"
+                placeholder="Айфон 13"
+                required
+              />
+              <label for="#" class="announcement-form__label"
+                >Назва оголошення</label
+              >
+            </div>
+            <div class="announcement-form__input-wrapper">
+              <textarea
+                name="#"
+                id="#"
+                class="announcement-form__textarea"
+                placeholder="Мінімальні потертості, стан 8/10"
+                required
+              ></textarea>
+              <label for="#" class="announcement-form__label"
+                >Придумайте опис</label
+              >
+              <span class="announcement-form__limit">Макс. 0/180</span>
+            </div>
+          </div>
+          <div class="second-part-wrapper">
+            <div class="second-part">
+              <div class="container">
+                <div class="categories-sort-by">
+                  <ul class="categories-sort-by__list">
+                    <li class="categories-sort-by__item">
+                      <img
+                        src="./img/price.svg"
+                        alt="price"
+                        class="categories-sort-by__item-icon"
+                      />
+                      <span class="categories-sort-by__item-name">Ціна</span>
+                    </li>
+                    <li class="categories-sort-by__item">
+                      <img
+                        src="./img/geo.svg"
+                        alt="price"
+                        class="categories-sort-by__item-icon"
+                      />
+                      <span class="categories-sort-by__item-name"
+                        >Геолокація</span
+                      >
+                    </li>
+                    <li class="categories-sort-by__item">
+                      <span class="categories-sort-by__item-name"
+                        >Стан товару</span
+                      >
+                    </li>
+                  </ul>
+                </div>
+
+                <p class="description-top">Додайте фото</p>
+                <p class="description-bottom">вашого оголошення</p>
+
+                <div class="add-photo-wrapper">
+                  <div class="add-photo">
+                    <input
+                      type="file"
+                      id="inputfile"
+                      class="add-photo__button"
+                    />
+                    <label
+                      for="inputfile"
+                      class="add-photo__button-label"
+                    ></label>
+                    <input
+                      type="file"
+                      id="inputfile"
+                      class="add-photo__button"
+                    />
+                    <label
+                      for="inputfile"
+                      class="add-photo__button-label"
+                    ></label>
+                    <input
+                      type="file"
+                      id="inputfile"
+                      class="add-photo__button"
+                    />
+                    <label
+                      for="inputfile"
+                      class="add-photo__button-label"
+                    ></label>
+                  </div>
+                </div>
+                <button class="announcement-form__submit">Створити</button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

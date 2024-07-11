@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="test-wrapper">
+      <h1>Hello! That's a test.</h1>
+    </div>
+    <div class="categories">
+      <h2>Categories TEST</h2>
+      <ul class="categories-list">
+        {% if categories %} {% for category in categories %}
+        <li class="categories-item">
+          <img src="{{ category.icon }}" alt="icon" />
+          <h2>{{ category.title }}</h2>
+        </li>
+        {% endfor %} {% endif %}
+      </ul>
+    </div>
+  </body>
+</html>

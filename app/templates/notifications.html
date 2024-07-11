@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./helper.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Doshka</title>
+  </head>
+  <body class="page">
+    <header class="header-wrapper">
+      <div class="header-container">
+        <div class="container">
+          <div class="header">
+            <form action="#" class="header__search">
+              <input
+                type="text"
+                class="header__search-input"
+                placeholder="Пошук"
+              />
+              <img
+                src="./img/search.svg"
+                alt="search-icon"
+                class="header__search-icon"
+              />
+            </form>
+            <div class="notification">
+              <button class="notification__button">
+                <img
+                  src="./img/bell.svg"
+                  alt="bell"
+                  class="notification__icon"
+                />
+                <span class="notification__counter">3</span>
+              </button>
+            </div>
+            <nav class="navigation">
+              <button class="navigation__button">
+                <div class="navigation__line"></div>
+                <div class="navigation__line"></div>
+                <div class="navigation__line"></div>
+              </button>
+            </nav>
+          </div>
+          <div class="profile">
+            <p class="profile__message">Ваші</p>
+            <div class="profile__message-bold">Повідомлення</div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="messages-wrapper">
+      <div class="messages">
+        <div class="container">
+          <span class="categories-sort-by">Нові ˅</span>
+          <ul class="messages-list">
+            <li class="messages-list__item">
+              <div class="messages-list__img-wrapper">
+                <img
+                  src="./img/product.jpg"
+                  alt="product"
+                  class="messages-list__img"
+                />
+              </div>
+              <div class="messages-list__description">
+                <h6 class="messages-list__description-title">Маргарита Марх</h6>
+                <p class="messages-list__description-text">
+                  Так, але яка якість у нього?
+                </p>
+              </div>
+
+              <div class="messages-list__time">11:35</div>
+            </li>
+            <li class="messages-list__item">
+              <div class="messages-list__img-wrapper">
+                <img
+                  src="./img/product-3.png"
+                  alt="product"
+                  class="messages-list__img"
+                />
+              </div>
+              <div class="messages-list__description">
+                <h6 class="messages-list__description-title">
+                  Андрій Маркетолог
+                </h6>
+                <p class="messages-list__description-text">
+                  Могу узнать диагональ?
+                </p>
+              </div>
+              <div class="messages-list__time">9:15</div>
+            </li>
+            <li class="messages-list__item">
+              <div class="messages-list__img-wrapper">
+                <img
+                  src="./img/product-2.png"
+                  alt="product"
+                  class="messages-list__img"
+                />
+              </div>
+              <div class="messages-list__description">
+                <h6 class="messages-list__description-title">Юзер224</h6>
+                <p class="messages-list__description-text">
+                  Доброго дня! Хочу купити
+                </p>
+              </div>
+              <div class="messages-list__time">18:34</div>
+            </li>
+            <li class="messages-list__item">
+              <div class="messages-list__img-wrapper">
+                <img
+                  src="./img/product.jpg"
+                  alt="product"
+                  class="messages-list__img"
+                />
+              </div>
+              <div class="messages-list__description">
+                <h6 class="messages-list__description-title">Маргарита Марх</h6>
+                <p class="messages-list__description-text">
+                  Добридень. Можна заміри?
+                </p>
+              </div>
+              <div class="messages-list__time">23:08</div>
+            </li>
+          </ul>
+          <div class="chat-wrapper">
+            <div class="chat">
+              <div class="container">
+                <div class="chat-board">
+                  <div class="chat-board__correspondence">
+                    <p class="chat-board__income-message">
+                      здравствуйте! хочу купить айфон
+                    </p>
+                    <p class="chat-board__outgoing-message">
+                      Добрый день) какой вам нужен?
+                    </p>
+                    <p class="chat-board__income-message">
+                      Меня интересует модель на 1Тб памяти. скажите есть такие в
+                      наличие?
+                    </p>
+                  </div>
+                  <form action="#" class="chat-form">
+                    <input
+                      type="text"
+                      class="chat-form__enter-text"
+                      placeholder="Введите текст"
+                    />
+
+                    <button class="chat-form__add-file">
+                      <img
+                        src="./img/add-file.svg"
+                        alt="add-file"
+                        class="chat-form__add-file-img"
+                      />
+                    </button>
+
+                    <button class="chat-form__send-message">
+                      <img
+                        src="./img/send.svg"
+                        alt="send-message"
+                        class="chat-form__send-message-img"
+                      />
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
